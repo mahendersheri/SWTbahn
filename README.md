@@ -10,4 +10,4 @@ deployment) area in GitLab. If a pipeline failure is reported, make sure that **
 pipeline instance is running, otherwise the tests might not be run correctly.
 
 
-**This project is the extension or updates of the existing project.**
+**This project is the extension or updates of the existing project Most of the work is done in ts2-client and ts2-server Go and Python.**
