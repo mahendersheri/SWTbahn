@@ -1,0 +1,831 @@
+{
+  "__type__": "SignalLibrary",
+  "signalAspects": {
+    "BUFFER": {
+      "__type__": "SignalAspect",
+      "actions": [
+        [
+          1,
+          0
+        ]
+      ],
+      "blink": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "lineStyle": 1,
+      "outerColors": [
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "outerShapes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "shapes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "shapesColors": [
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000"
+      ]
+    },
+    "GERMAN_BLOCK_MOVE": {
+      "__type__": "SignalAspect",
+      "actions": [
+        [
+          0,
+          999
+        ]
+      ],
+      "blink": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "lineStyle": 0,
+      "outerColors": [
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "outerShapes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "shapes": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "shapesColors": [
+        "#808080",
+        "#00FF00",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000"
+      ]
+    },
+    "GERMAN_BLOCK_STOP": {
+      "__type__": "SignalAspect",
+      "actions": [
+        [
+          1,
+          0
+        ]
+      ],
+      "blink": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "lineStyle": 0,
+      "outerColors": [
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "outerShapes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "shapes": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "shapesColors": [
+        "#FF0000",
+        "#808080",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000"
+      ]
+    },
+    "GERMAN_DEP_LOW": {
+      "__type__": "SignalAspect",
+      "actions": [
+        [
+          2,
+          0
+        ]
+      ],
+      "blink": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "lineStyle": 0,
+      "outerColors": [
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "outerShapes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "shapes": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "shapesColors": [
+        "#FFFF00",
+        "#000000",
+        "#808080",
+        "#808080",
+        "#00FF00",
+        "#000000"
+      ]
+    },
+    "GERMAN_DEP_MOVE": {
+      "__type__": "SignalAspect",
+      "actions": [
+        [
+          0,
+          999
+        ]
+      ],
+      "blink": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "lineStyle": 0,
+      "outerColors": [
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "outerShapes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "shapes": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "shapesColors": [
+        "#808080",
+        "#000000",
+        "#808080",
+        "#808080",
+        "#00FF00",
+        "#000000"
+      ]
+    },
+    "GERMAN_DEP_STOP": {
+      "__type__": "SignalAspect",
+      "actions": [
+        [
+          1,
+          0
+        ]
+      ],
+      "blink": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "lineStyle": 0,
+      "outerColors": [
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "outerShapes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "shapes": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "shapesColors": [
+        "#808080",
+        "#000000",
+        "#FF0000",
+        "#FF0000",
+        "#808080",
+        "#000000"
+      ]
+    },
+    "GERMAN_DIS_LOW": {
+      "__type__": "SignalAspect",
+      "actions": [
+        [
+          0,
+          4.166
+        ]
+      ],
+      "blink": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "lineStyle": 0,
+      "outerColors": [
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "outerShapes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "shapes": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "shapesColors": [
+        "#FFFF00",
+        "#808080",
+        "#000000",
+        "#000000",
+        "#808080",
+        "#00FF00"
+      ]
+    },
+    "GERMAN_DIS_MOVE": {
+      "__type__": "SignalAspect",
+      "actions": [
+        [
+          0,
+          999
+        ]
+      ],
+      "blink": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "lineStyle": 0,
+      "outerColors": [
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "outerShapes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "shapes": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "shapesColors": [
+        "#808080",
+        "#00FF00",
+        "#000000",
+        "#000000",
+        "#808080",
+        "#00FF00"
+      ]
+    },
+    "GERMAN_DIS_STOP": {
+      "__type__": "SignalAspect",
+      "actions": [
+        [
+          1,
+          0
+        ]
+      ],
+      "blink": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "lineStyle": 0,
+      "outerColors": [
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "outerShapes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "shapes": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "shapesColors": [
+        "#FFFF00",
+        "#808080",
+        "#000000",
+        "#000000",
+        "#FFFF00",
+        "#808080"
+      ]
+    },
+    "GERMAN_ENT_LOW": {
+      "__type__": "SignalAspect",
+      "actions": [
+        [
+          2,
+          0
+        ]
+      ],
+      "blink": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "lineStyle": 0,
+      "outerColors": [
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "outerShapes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "shapes": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "shapesColors": [
+        "#808080",
+        "#FFFF00",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#00FF00"
+      ]
+    },
+    "GERMAN_ENT_MOVE": {
+      "__type__": "SignalAspect",
+      "actions": [
+        [
+          0,
+          999
+        ]
+      ],
+      "blink": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "lineStyle": 0,
+      "outerColors": [
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "outerShapes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "shapes": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "shapesColors": [
+        "#808080",
+        "#808080",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#00FF00"
+      ]
+    },
+    "GERMAN_ENT_STOP": {
+      "__type__": "SignalAspect",
+      "actions": [
+        [
+          1,
+          0
+        ]
+      ],
+      "blink": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "lineStyle": 0,
+      "outerColors": [
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "outerShapes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "shapes": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "shapesColors": [
+        "#FF0000",
+        "#808080",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#808080"
+      ]
+    },
+    "GERMAN_SHUNT_STOP": {
+      "__type__": "SignalAspect",
+      "actions": [
+        [
+          1,
+          0
+        ]
+      ],
+      "lineStyle": 0,
+      "outerColors": [
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "outerShapes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "shapes": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "shapesColors": [
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#FF0000",
+        "#FF0000"
+      ]
+    },
+    "GERMAN_SHUNT_MOVE": {
+      "__type__": "SignalAspect",
+      "actions": [
+        [
+          0,
+          999
+        ]
+      ],
+      "lineStyle": 0,
+      "outerColors": [
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000"
+      ],
+      "outerShapes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "shapes": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "shapesColors": [
+        "#808080",
+        "#00FF00",
+        "#000000",
+        "#FFFFFF",
+        "#FFFFFF",
+        "#000000"
+      ]
+    }
+  },
+  "signalTypes": {
+    "BUFFER": {
+      "__type__": "SignalType",
+      "states": [{
+        "__type__": "SignalState",
+        "aspectName": "BUFFER",
+        "conditions": {}
+      }]
+    },
+    "GERMAN_BLOCK_TP": {
+      "__type__": "SignalType",
+      "states": [{
+          "__type__": "SignalState",
+          "aspectName": "GERMAN_BLOCK_STOP",
+          "conditions": {
+            "TRAIN_PRESENT_ON_ITEMS": []
+          }
+        },
+        {
+          "__type__": "SignalState",
+          "aspectName": "GERMAN_BLOCK_MOVE",
+          "conditions": {}
+        }
+      ]
+    },
+    "GERMAN_DEPARTURE": {
+      "__type__": "SignalType",
+      "states": [{
+          "__type__": "SignalState",
+          "aspectName": "GERMAN_DEP_MOVE",
+          "conditions": {
+            "NEXT_ROUTE_ACTIVE": [],
+            "NEXT_SIGNAL_ASPECTS": [
+              "GERMAN_DEP_MOVE",
+              "GERMAN_ENT_MOVE",
+              "GERMAN_BLOCK_MOVE",
+              "GERMAN_DEP_LOW",
+              "GERMAN_ENT_LOW"
+            ],
+            "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": []
+          }
+        },
+        {
+          "__type__": "SignalState",
+          "aspectName": "GERMAN_DEP_LOW",
+          "conditions": {
+            "NEXT_ROUTE_ACTIVE": [],
+            "NEXT_SIGNAL_ASPECTS": [
+              "GERMAN_DEP_STOP",
+              "GERMAN_ENT_STOP",
+              "GERMAN_BLOCK_STOP",
+              "BUFFER"
+            ],
+            "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": []
+          }
+        },
+        {
+          "__type__": "SignalState",
+          "aspectName": "GERMAN_DEP_STOP",
+          "conditions": {}
+        }
+      ]
+    },
+    "GERMAN_DISTANT": {
+      "__type__": "SignalType",
+      "states": [{
+          "__type__": "SignalState",
+          "aspectName": "GERMAN_DIS_MOVE",
+          "conditions": {
+            "NEXT_ROUTE_ACTIVE": [],
+            "NEXT_SIGNAL_ASPECTS": [
+              "GERMAN_DEP_MOVE",
+              "GERMAN_ENT_MOVE",
+              "GERMAN_BLOCK_MOVE"
+            ],
+            "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": []
+          }
+        },
+        {
+          "__type__": "SignalState",
+          "aspectName": "GERMAN_DIS_LOW",
+          "conditions": {
+            "NEXT_ROUTE_ACTIVE": [],
+            "NEXT_SIGNAL_ASPECTS": [
+              "GERMAN_ENT_LOW",
+              "GERMAN_DEP_LOW",
+              "GERMAN_ENT_STOP",
+              "GERMAN_DEP_STOP",
+              "GERMAN_BLOCK_STOP"
+            ],
+            "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": []
+          }
+        },
+        {
+          "__type__": "SignalState",
+          "aspectName": "GERMAN_DIS_STOP",
+          "conditions": {}
+        }
+      ]
+    },
+    "GERMAN_ENTRY": {
+      "__type__": "SignalType",
+      "states": [{
+          "__type__": "SignalState",
+          "aspectName": "GERMAN_ENT_MOVE",
+          "conditions": {
+            "NEXT_ROUTE_ACTIVE": [],
+            "NEXT_SIGNAL_ASPECTS": [
+              "GERMAN_ENT_MOVE",
+              "GERMAN_BLOCK_MOVE",
+              "GERMAN_ENT_LOW",
+              "GERMAN_DEP_MOVE",
+              "GERMAN_DEP_LOW",
+              "GERMAN_DIS_STOP",
+              "GERMAN_DIS_MOVE",
+              "GERMAN_DIS_LOW"
+            ],
+            "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": []
+          }
+        },
+        {
+          "__type__": "SignalState",
+          "aspectName": "GERMAN_ENT_LOW",
+          "conditions": {
+            "NEXT_ROUTE_ACTIVE": [],
+            "NEXT_SIGNAL_ASPECTS": [
+              "GERMAN_ENT_STOP",
+              "GERMAN_BLOCK_STOP",
+              "GERMAN_DEP_STOP",
+              "BUFFER"
+            ],
+            "TRAIN_NOT_PRESENT_ON_NEXT_ROUTE": []
+          }
+        },
+        {
+          "__type__": "SignalState",
+          "aspectName": "GERMAN_ENT_STOP",
+          "conditions": {}
+        }
+      ]
+    }
+  }
+}
