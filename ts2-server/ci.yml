@@ -1,0 +1,20 @@
+version: '3.7'
+
+networks:
+  ci:
+
+services:
+  compile:
+    build:
+      context: ./
+      dockerfile: Dockerfile.ci
+      target: compile
+    networks:
+      - ci
+  testcoverage:
+    build:
+      context: ./
+      dockerfile: Dockerfile.ci
+      target: testcoverage
+    networks:
+      - ci
