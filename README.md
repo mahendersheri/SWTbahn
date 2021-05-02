@@ -8,3 +8,6 @@ This repository has also been configured to automatically build and run tests wh
 a push has been performed.  See the CI/CD (continuous integration and continuous
 deployment) area in GitLab. If a pipeline failure is reported, make sure that **only one** 
 pipeline instance is running, otherwise the tests might not be run correctly.
+
+
+**This project is the extension or updates of the existing project.**
